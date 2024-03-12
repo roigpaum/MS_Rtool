@@ -3,7 +3,7 @@ Divers tools used for High-Resolution Mass Spectrometry data analysis in R
 -----------------------------------------------------------------------------------
 Description
 -----------
-Each folder contain a script with usually and input and expected output and specific README as well.
+Each folder contain a script with usually an input, expected output and specific README as well.
 Please cite appropriate reference when using the tools.
 
 Tools includes
