@@ -19,9 +19,9 @@ Experimental Design
 
 Getting started
 ----------------
-1. Download the R script
-2. set parameter in the R script
-3. Check Input file: should be a csv file with no special character (e.g., - % ? ! /)
+1. Download the R script.
+2. Set parameter in the R script.
+3. Check Input file: should be a csv file with no special character (e.g., - % ? ! /).
 4. Check gaven exemple of input and output ... be sure to have similar structure (header, column) file.
 
 Citing
