@@ -23,6 +23,7 @@ Getting started
 3. Set parameter in the R script.
 4. Check Input file: should be a csv file with no special character (e.g., - % ? ! /).
 5. Check gaven exemple of input and output ... be sure to have similar structure (header, column) file.
+6. Output LOD and LOQ unit are similar as the input.
 
 Citing
 -------
