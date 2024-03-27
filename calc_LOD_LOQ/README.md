@@ -1,4 +1,4 @@
-Limit of Detection (LOD) and Limit of quantification (LOQ) method 
+Limit of Detection (LOD) and Limit of Quantification (LOQ) Method 
 -----------------------------------------------------------------
 Description
 -----------
