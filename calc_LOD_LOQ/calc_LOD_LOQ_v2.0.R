@@ -31,8 +31,7 @@
 ## PARAMETER
 #############
 # workdir <- "R:/Boris Droz/Proj_FORENSICSPFAS/data_analysis/"
-
-workdir <- "C:/Users/drozditb/Downloads" # output folder tooo
+workdir <- dirname(rstudioapi::getSourceEditorContext()$path) # get directory work only in rstudio
 
 setwd(workdir)
 
