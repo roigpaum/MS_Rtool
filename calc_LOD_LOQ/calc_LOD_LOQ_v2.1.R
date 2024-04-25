@@ -26,12 +26,11 @@
 ##              To Estimate LOD and LOQ of an HPLC Method. 
 ##              Anal. Chem. 1999, 71 (14), 2672-2677. DOI: 10.1021/ac981179n.
 ################################################################################
-
 ##############################
 ## PARAMETER
 #############
 # workdir <- "R:/Boris Droz/Proj_FORENSICSPFAS/data_analysis/"
-workdir <- dirname(rstudioapi::getSourceEditorContext()$path) #
+workdir <- dirname(rstudioapi::getSourceEditorContext()$path) # work only with R-studio
 
 setwd(workdir)
 
@@ -45,21 +44,8 @@ ny <- 2:ncol(df)  ##species list
 
 plot.opt <- "YES" # do you want a plot plotted in you screen? YES or NO
 set.thres <- 40  # set the threshold on how many fold the range of data is accepted.
-################################################################################
 
-# # # test data - from vial 1999 Fig5.
-# df.test <-cbind( conc=c(0.0062,0.0207, 0.0476,0.0476,0.1014, 0.1014,
-#                         0.1014, 0.2505,0.2505, 0.2505, 0.49689,
-#                         0.49689, 0.49896, 0.9979, 1, 1 ),
-#                  area=c( 0, 592, 740, 2663, 5473,4142, 3254, 12130,
-#                          11095, 10059, 22929, 21894, 21302, 47633,
-#                          46450, 45118))
-# plot(df.test)
-# 
-# # # #test
-# x.label<- "conc"
-# y.label <-"area"
-# data <-df.test
+################################################################################
 ###############################################################################
 ### LOQ LOD FUNCTION
 ####################
@@ -106,11 +92,6 @@ fun_LODQ <- function(data, x.label=x,y.label=y, plot.check="YES")
 ##############################################################################
 ######## CODE START HERE
 #########################
-
-# i=5
-# data=na.omit(df[,c(2,i)])
-# x.label="Conc_ngperL"
-# y.label=names(df)[i]
 
 d.out <- NULL
 names.out <- NULL
