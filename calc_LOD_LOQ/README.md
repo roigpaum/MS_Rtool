@@ -20,6 +20,7 @@ Experimental Design
 Getting started
 ----------------
 1. Download the R script and save it on an empty folder (your work directory).
+   - If downloaded file goes to "Downloads", then copy/move files into new empty folder ("Documents" works)
 3. Set the PARAMETER section in the R script.
 4. Check Input file:
    - Should be a csv file with no special character (e.g., - % ? ! /).
